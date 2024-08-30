@@ -19,22 +19,22 @@ https://youtu.be/Y0g4tQ8Prs0
 [source, shell-session]
 ----
 # Windows
-curl -fL https://github.com/skupperproject/skupper/releases/download/1.0.2/skupper-cli-1.0.2-windows-amd64.zip
+curl -fL https://github.com/skupperproject/skupper/releases/download/1.8.0/skupper-cli-1.8.0-windows-amd64.zip
 
-unzip skupper-cli-1.0.2-windows-amd64.zip
+unzip skupper-cli-1.8.0-windows-amd64.zip
 
 mkdir %UserProfile%\bin
 move skupper.exe %UserProfile%\bin
 set PATH=%PATH%;%UserProfile%\bin
 
 # Linux
-curl -fL https://github.com/skupperproject/skupper/releases/download/1.0.2/skupper-cli-1.0.2-linux-amd64.tgz | tar -xzf -
+curl -fL https://github.com/skupperproject/skupper/releases/download/1.8.0/skupper-cli-1.8.0-linux-amd64.tgz | tar -xzf -
 mkdir $HOME/bin
 mv skupper $HOME/bin
 export PATH=$PATH:$HOME/bin
 
 # MacOs
-curl -fL https://github.com/skupperproject/skupper/releases/download/1.0.2/skupper-cli-1.0.2-mac-amd64.tgz | tar -xzf -
+curl -fL https://github.com/skupperproject/skupper/releases/download/1.8.0/skupper-cli-1.8.0-mac-amd64.tgz | tar -xzf -
 mkdir $HOME/bin
 mv skupper $HOME/bin
 export PATH=$PATH:$HOME/bin
